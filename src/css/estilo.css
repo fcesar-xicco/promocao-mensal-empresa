@@ -1,0 +1,192 @@
+.titulo{
+    text-align: center;
+    margin-top: 20px;
+}
+h1{
+    margin-top: 20px;
+    font-size: 4.9em;
+    color: yellow;
+    text-shadow: 0 0 0.2em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0)
+    
+}
+.titulo-principal{
+    text-align: center;
+    height: 180px;
+}
+.sub-titulo{
+    margin: 0;
+    color: rgb(255, 0, 0);
+    text-shadow: none ;
+    font-size: 4.2em;
+    margin-bottom: 10px;
+    text-shadow: 0 0 0.2em rgb(238, 235, 235), 0 0 0.2em rgb(252, 252, 252)
+ 
+}
+
+.titulo-a{
+    margin-top: 35px;
+}
+.titulo-b{
+    margin-top: 90px;
+}
+.aba-descricao{
+    height: 250px;
+    margin-top: 40PX;
+    
+}
+h2{
+    font-size: 2.5em;
+    
+}
+.principal{
+    margin:0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+.produtos{
+    width: 80%;
+}
+.item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item li{
+
+    text-align: center;
+    width: 95px;
+    height: 72px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 0 black;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 10px 10px;
+    border:solid black 1px;
+    margin: 5px; 
+    cursor: pointer;
+}
+
+.cod-intern{
+    border: solid red 1px;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: rgb(4, 0, 56);
+    font-weight: 700;
+    font-size: 1.2em;
+    
+}
+.v220{
+    color: red;
+    font-weight: 900;
+}
+
+
+.item li:hover{
+    background-color: yellow;
+    box-shadow: 0px 0px 10px 5px yellow;
+    color: black;
+}
+
+
+
+.linhab{
+    background: rgb(223, 131, 251);
+}
+
+.gas{
+    background-color: aquamarine;
+}
+
+.motor{
+    color: #ffffff;
+    background-color: rgb(29, 28, 28);
+}
+
+.comercial{
+    background-color: rgb(214, 52, 247);
+   
+}
+.suportes{
+    color: #ffffff;
+}
+.lata{
+    background-color:  #60a991;
+}
+
+
+.abas ul{
+    
+    margin-bottom: 40px;
+    border-radius: 20px;
+
+}
+
+
+.aba-a, .aba-c,.aba-b{
+    width: 441px;
+    height: 595px;
+    margin-top: 10px;
+    
+}
+
+
+/*----aba-descricoes----*/
+.promocao{
+    color: red;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.titulo-principal1{
+ display: none;
+}
+
+
+/*----RESPOSTAS----*/
+.desc-item{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-promocao{
+    margin: 70px 0 0 0;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 230, 0);
+    text-shadow: 0 0 0.2em rgb(253, 0, 0), 0 0 0.2em rgb(0, 0, 0)
+    
+}
+.data-final{
+    text-align: center; 
+    margin: 15px;
+}
+.dtcor{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+
+
+#descricao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    min-height: 100px;
+    margin: auto;   
+    background-color: #ffffff;
+    font-size: 16px;
+    border-Radius: 10px;
+    border: "solid black 2px";
+    font-Weight: 700;
+    padding: 15px 0px;
+    box-shadow: 0px 0px 10px 5px rgb(0, 0, 0);
+  
+}
